@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest src",
-    "test-ci": "vitest run",
     "build": "tsc -b && vite build",
     "prettier": "prettier --write src/**/*.ts*",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

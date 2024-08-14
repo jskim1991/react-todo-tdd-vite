@@ -1,3 +1,14 @@
+
+|                    | vitest               | Playwright |
+|--------------------|----------------------|------------|
+| placeholder | getByPlaceholderText | getByPlaceHolder |
+| input value | toHaveValue | toHaveText |
+| contain text | | toContainText |
+| role | getByRole | getByRole |
+
+
+### Playwright sample test code:
+
 ```typescript
 import { test, expect, type Page } from '@playwright/test';
 
